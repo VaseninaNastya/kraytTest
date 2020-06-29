@@ -79,7 +79,12 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 0 5px rgba(122,122,122);
     font-family: 'Roboto', sans-serif;
     width: 192px;
-
+}
+.button:hover{
+    box-shadow: 0 0 10px rgba(122,122,122);
+}
+.button:active{
+    background-color: rgb(245, 245, 247);
 }
 /*Intro*/
 .intro{
@@ -116,19 +121,26 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
     color: #ffffff;
     text-align: center;
+    font-weight: bolder;
+    padding:  0 30px;
 }
-.intro-header__navigation a:last-child{
+.intro-header__navigation a:hover{
     color: #222222;
     background-color: #ffffff;
-    padding:  9.5px 30px;
     border-radius:  35px;
-    font-weight: bolder;
+    height: 35px;
+    display: flex;
+    align-items: center;
 }
+.intro-header__navigation a:active{
+    box-shadow: 0 0 10px rgba(122,122,122);
+}
+
 .intro-header__navigation{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 440px;
+    width: 500px;
     height: 35px;
 }
 
@@ -205,6 +217,11 @@ h1, h2, h3, h4, h5, h6 {
 .properties__itеm--icon{
     width: 75px;
     height: 75px;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*prime-reason*/
@@ -264,7 +281,6 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
 }
 .arrow-icon{
-    background-color: saddlebrown;
     height: 38px;
     width: 38px;
     border-radius: 19px;
@@ -366,6 +382,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 40px;
     margin-top: 5px;
 }
+
+.package__button:active{
+    border: 1px solid rgba(122,122,122);
+    box-shadow: 0 0 10px rgba(122,122,122);
+}
+
+
 .button__container{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
