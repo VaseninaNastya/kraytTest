@@ -5,50 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kraytTest</title>
     <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="intro">
         <div class="container">
-            <header class="intro-header">
-                <div class="intro-header__logo-container">
+            <div class="row align-items-center intro-header">
+                <div class="col-xl-2 d-flex">
                     <img class="intro-header__logo-image" src="../public/icons/Logo.png" alt="">
                     <h3 class="intro-header__logo-header">Giant</h3>
                 </div>
-                <nav class="intro-header__navigation">
-                    <a href="#">Home</a>
-                    <a href="#">Features</a>
-                    <a href="#">Pricing</a>
-                    <a href="#">Download Now</a>
-                </nav>
-            </header>
-            <div class="intro-content">
-                <h1 class="intro-content__title">
-                    A Powerful & Unique App Landing Template
-                </h1>
-                <p class="intro-content__description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <ul class="intro-content__list">
-                    <li class="section-text">
-                        <img class="checkbox" src="../public/icons/checkWhite.png" alt="">
-                        Unlimited colors: banner with images, slider or video</li>
-                    <li class="section-text">
-                        <img class="checkbox" src="../public/icons/checkWhite.png" alt="">
-                        Fully Responsive and powered by HTML5 and CSS3</li>
-                    <li class="section-text">
-                        <img class="checkbox" src="../public/icons/checkWhite.png" alt="">
-                        Very easy to customize : set up in minutes</li>
-                </ul>
-                    <a class="button" href="#">Start Exploring Us</a>
+                <div class="col-xl-8 ">
+                    <nav class="intro-header__navigation">
+                        <ul class="d-flex justify-content-end">
+                            <li class=""><a href="#">Home</a></li>
+                            <li class=""><a href="#">Features</a></li>
+                            <li class=""><a href="#">Pricing</a></li>
+                            <li class=""><a href="#">Download Now</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="intro-content d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <h1 class="intro-content__title">
+                            A Powerful & Unique <br> App Landing Template
+                        </h1>
+                        <p class="intro-content__description">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <ul class="intro-content__list">
+                            <li class="section-text">
+                                <svg class="bi bi-check-circle-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                                </svg>
+                                Unlimited colors: banner with images, slider or video
+                            </li>
+                            <li class="section-text">
+                                <svg class="bi bi-check-circle-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                                </svg>
+                                Fully Responsive and powered by HTML5 and CSS3
+                            </li>
+                            <li class="section-text">
+                                <svg class="bi bi-check-circle-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                                </svg>
+                                Very easy to customize : set up in minutes
+                            </li>
+                        </ul>
+                        <button class="button">Start Exploring Us</button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <section class="properties">
         <div class="container">
             <div class="properties-itеms__container">
-                <div class="properties__itеms">
-                    <div class="properties__itеm">
+                <div class="row properties__itеms">
+                    <div class="col-xl-4 d-flex properties__itеm">
                         <div class="properties__itеm--icon">
                             <img src="../public/icons/1icon.png" alt="">
                         </div>
@@ -57,27 +78,27 @@
                             <div class="section-text">Over 92% of computers are infected with Adware and spyware. Such software is </div>
                         </div>
                     </div>
-                    <div class="properties__itеm">
-                        <div class="properties__itеm--icon">
-                            <img  src="../public/icons/2icon.png" alt="">
-                        </div>
-                        <div class="properties__itеm--content">
-                            <div class="properties__itеm--title">Very easy to customize</div>
-                            <div class="section-text">Many of us are so used to working on a computer desktop that when it comes</div>
-                        </div>
+                    <div class="col-xl-4 d-flex properties__itеm">
+                            <div class="properties__itеm--icon">
+                                <img src="../public/icons/2icon.png" alt="">
+                            </div>
+                            <div class="properties__itеm--content">
+                                <div class="properties__itеm--title">Very easy to customize</div>
+                                <div class="section-text">Many of us are so used to working on a computer desktop that when it comes </div>
+                            </div>
                     </div>
-                    <div class="properties__itеm">
+                    <div class="col-xl-4 d-flex properties__itеm">
                         <div class="properties__itеm--icon">
                             <img src="../public/icons/3icon.png" alt="">
                         </div>
                         <div class="properties__itеm--content">
                             <div class="properties__itеm--title">Unlimited colors</div>
-                            <div class="section-text">Audio player software is used to play back sound recordings in one of the many</div>
+                            <div class="section-text">Audio player software is used to play back sound recordings in one of the many </div>
                         </div>
                     </div>
                 </div>
-                <div class="properties__itеms">
-                    <div class="properties__itеm">
+                <div class="row properties__itеms">
+                    <div class="col-xl-4 d-flex properties__itеm">
                         <div class="properties__itеm--icon">
                             <img src="../public/icons/4icon.png" alt="">
                         </div>
@@ -86,169 +107,200 @@
                             <div class="section-text">Computers have become ubiquitous in almost every facet of our lives. At work, </div>
                         </div>
                     </div>
-                    <div class="properties__itеm">
-                        <div class="properties__itеm--icon">
-                            <img src="../public/icons/5icon.png" alt="">
-                        </div>
-                        <div class="properties__itеm--content">
-                            <div class="properties__itеm--title">Designed to convert</div>
-                            <div class="section-text">If you are looking for a new way to promote your business that won’t cost </div>
-                        </div>
+                    <div class="col-xl-4 d-flex properties__itеm">
+                            <div class="properties__itеm--icon">
+                                <img src="../public/icons/5icon.png" alt="">
+                            </div>
+                            <div class="properties__itеm--content">
+                                <div class="properties__itеm--title">Designed to convert</div>
+                                <div class="section-text">If you are looking for a new way to promote your business that won’t cost </div>
+                            </div>
                     </div>
-                    <div class="properties__itеm">
-                        <div  class="properties__itеm--icon">
+                    <div class="col-xl-4 d-flex properties__itеm">
+                        <div class="properties__itеm--icon">
                             <img src="../public/icons/6icon.png" alt="">
                         </div>
                         <div class="properties__itеm--content">
                             <div class="properties__itеm--title">With no boundaries</div>
                             <div class="section-text">Now, if you are interested in being the best player, getting really good money and </div>
                         </div>
-                    </div>
+                </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="prime-reason">
+    <section class="prime-reason d-flex align-items-center">
         <div class="container">
-            <div class="prime-reason__content">
-                <h2 class="section-title">We don’t leave you stranded</h2>
-                <p class="section-text prime-reason__description">
-                    Everyone’s reasons for learning user interface design are different. If you’re already a developer, or a PM, or a UX designer, why develop this totally separate skill?
-                </p>
-                <p class="section-text">
-                    Everyone’s reasons for learning user interface design are different. If you’re already a developer, or a PM, or a UX designer, why develop this totally separate skill? If you’re already a developer, or a PM, or a UX designer.
-                </p>
-                <ul class="prime-reason__list">
-                    <li class="section-text">  
-                        <img class="checkbox" src="../public/icons/checkBlack.png" alt="">
-                        Unlimited colors: banner with images, slider or video</li>
-                    <li class="section-text">
-                        <img class="checkbox" src="../public/icons/checkBlack.png" alt="">
-                        Fully Responsive and powered by HTML5 and CSS3</li>
-                    <li class="section-text">
-                        <img class="checkbox" src="../public/icons/checkBlack.png" alt="">
-                        Very easy to customize : set up in minutes</li>
-                </ul>
+            <div class="row justify-content-end">
+                <div class="col-xl-6">
+                    <h2 class="section-title">
+                        We don’t leave you stranded
+                    </h2>
+                    <p class="section-text prime-reason__description">
+                        Everyone’s reasons for learning user interface design are different. If you’re already a developer, or a PM, or a UX designer, why develop this totally separate skill?
+                    </p>
+                    <p class="section-text">
+                        Everyone’s reasons for learning user interface design are different. If you’re already a developer, or a PM, or a UX designer, why develop this totally separate skill? If you’re already a developer, or a PM, or a UX designer.
+                    </p>
+                    <ul class="prime-reason__list">
+                        <li class="section-text">
+                            <svg class="bi bi-check-circle-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                            </svg>
+                            Unlimited colors: banner with images, slider or video
+                        </li>
+                        <li class="section-text">
+                            <svg class="bi bi-check-circle-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                            </svg>
+                            Fully Responsive and powered by HTML5 and CSS3
+                        </li>
+                        <li class="section-text">
+                            <svg class="bi bi-check-circle-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                            </svg>
+                            Very easy to customize : set up in minutes
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
     <section class="screenshots">
-        <div class="container">
-            <div class="screenshots__content">
-                <h2 class="section-title">
-                    Take a look at our screenshots
-                </h2>
-                <p class="section-text">
-                    Everyone’s reasons for learning user interface design are different. If you’re already a developer, or a PM, or a UX designer, why develop this totally separate skill?
-                </p>
-            </div>  
-        </div>
-        <div class="slider-container">
-            <div class="arrow">
-                &#11104;
+        <div class="screenshots__container">
+            <div class="container ">
+                <div class="row text-center justify-content-center">
+                    <div class="col-xl-8" >
+                        <div class="screenshots__content">
+                            <h2 class="section-title">
+                                Take a look at our screenshots
+                            </h2>
+                            <p class="section-text">
+                                Everyone’s reasons for learning user interface design are different. If you’re already a developer, or a PM, or a UX designer, why develop this totally separate skill?
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-                <img src="../public/slider.png" alt="">
-            <div class="arrow">
-                &#11106;
+            <div class="slider-container">
+                <div class="arrow">
+                    &#11104;
+                </div>
+                    <img src="../public/slider.png" alt="">
+                <div class="arrow">
+                    &#11106;
+                </div>
             </div>
         </div>
     </section>
     <section class="packages">
         <div class="container">
-            <div class="packages__content">
-                <h2 class="section-title">
-                    We've got the perfect package for you
-                </h2>
-                <p class="section-text">
-                    Everyone’s reasons for learning user interface design are different. If you’re already a developer, or a PM, or a UX designer, why develop this totally separate skill?
-                </p>
+            <div class="row text-center justify-content-center">
+                <div class="col-xl-8">
+                    <div class="packages__content">
+                        <h2 class="section-title">
+                            We've got the perfect package for you
+                        </h2>
+                        <p class="section-text">
+                            Everyone’s reasons for learning user interface design are different. If you’re already a developer, or a PM, or a UX designer, why develop this totally separate skill?
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="packages__conteiner">
-                <div class="package">
-                    <h3 class="package__title">
-                        Basic
-                    </h3>
-                    <div class="package__cost">
-                        <sup class="package__cost--small">$</sup>12.0<small class="package__cost--small">/m</small>
-                    </div>
-                    <ul class="package__description">
-                        <li>One User</li>
-                        <li>Multiple Access</li>
-                        <li>SMS Support</li>
-                        <li>24/7 Online Support</li>
-                    </ul>
-                    <div class="button__container">
-                        <p class="button__label">
-                            Start Free Trial
-                        </p>
-                        <div class="package__button">
-                            <a href="#">Buy Now</a>
+            <div class="row">
+                <div class="col-xl-3">
+                    <div class="package">
+                        <h3 class="package__title">
+                            Basic
+                        </h3>
+                        <div class="package__cost">
+                            <sup class="package__cost--small">$</sup>12.0<small class="package__cost--small">/m</small>
+                        </div>
+                        <ul class="package__description">
+                            <li>One User</li>
+                            <li>Multiple Access</li>
+                            <li>SMS Support</li>
+                            <li>24/7 Online Support</li>
+                        </ul>
+                        <div class="button__container">
+                            <p class="button__label">
+                                Start Free Trial
+                            </p>
+                            <button class="package__button">
+                                Buy Now
+                            </button>
                         </div>
                     </div>
                 </div>
-                <div class="package">
-                    <h3 class="package__title">
-                        Standard
-                    </h3>
-                    <div class="package__cost">
-                        <sup class="package__cost--small">$</sup>24.0<small class="package__cost--small">/m</small>
-                    </div>
-                    <ul class="package__description">
-                        <li>Five User</li>
-                        <li>Multiple Access</li>
-                        <li>SMS Support</li>
-                        <li>24/7 Online Support</li>
-                    </ul>
-                    <div class="button__container">
-                        <p class="button__label">
-                            Start Free Trial
-                        </p>
-                        <div class="package__button">
-                            <a href="#">Buy Now</a>
+                <div class="col-xl-3">
+                    <div class="package">
+                        <h3 class="package__title">
+                            Standard
+                        </h3>
+                        <div class="package__cost">
+                            <sup class="package__cost--small">$</sup>24.0<small class="package__cost--small">/m</small>
+                        </div>
+                        <ul class="package__description">
+                            <li>Five User</li>
+                            <li>Multiple Access</li>
+                            <li>SMS Support</li>
+                            <li>24/7 Online Support</li>
+                        </ul>
+                        <div class="button__container">
+                            <p class="button__label">
+                                Start Free Trial
+                            </p>
+                            <button class="package__button">
+                                Buy Now
+                            </button>
                         </div>
                     </div>
                 </div>
-                <div class="package">
-                    <h3 class="package__title">
-                        Premium
-                    </h3>
-                    <div class="package__cost">
-                        <sup class="package__cost--small">$</sup>250.0<small class="package__cost--small">/m</small>
-                    </div>
-                    <ul class="package__description">
-                        <li>Twenty User</li>
-                        <li>Multiple Access</li>
-                        <li>SMS Support</li>
-                        <li>24/7 Online Support</li>
-                    </ul>
-                    <div class="button__container">
-                        <p class="button__label">
-                            Start Free Trial
-                        </p>
-                        <div class="package__button">
-                            <a href="#">Buy Now</a>
+                <div class="col-xl-3">
+                    <div class="package">
+                        <h3 class="package__title">
+                            Premium
+                        </h3>
+                        <div class="package__cost">
+                            <sup class="package__cost--small">$</sup>250.0<small class="package__cost--small">/m</small>
+                        </div>
+                        <ul class="package__description">
+                            <li>Twenty User</li>
+                            <li>Multiple Access</li>
+                            <li>SMS Support</li>
+                            <li>24/7 Online Support</li>
+                        </ul>
+                        <div class="button__container">
+                            <p class="button__label">
+                                Start Free Trial
+                            </p>
+                            <button class="package__button">
+                                Buy Now
+                            </button>
                         </div>
                     </div>
                 </div>
-                <div class="package">
-                    <h3 class="package__title">
-                        Enterprise
-                    </h3>
-                    <h2 class="package__cost">
-                        <sup class="package__cost--small">$</sup>999.0<small class="package__cost--small">/m</small>
-                    </h2>
-                    <ul class="package__description">
-                        <li>Unlimited User</li>
-                        <li>Multiple Access</li>
-                        <li>SMS Support</li>
-                        <li>24/7 Online Support</li>
-                    </ul>
-                    <div class="button__container">
-                        <p class="button__label">
-                            Start Free Trial
-                        </p>
-                        <div class="package__button">
-                            <a href="#">Buy Now</a>
+                <div class="col-xl-3">
+                    <div class="package">
+                        <h3 class="package__title">
+                            Basic
+                        </h3>
+                        <div class="package__cost">
+                            <sup class="package__cost--small">$</sup>999.0<small class="package__cost--small">/m</small>
+                        </div>
+                        <ul class="package__description">
+                            <li>Unlimited User</li>
+                            <li>Multiple Access</li>
+                            <li>SMS Support</li>
+                            <li>24/7 Online Support</li>
+                        </ul>
+                        <div class="button__container">
+                            <p class="button__label">
+                                Start Free Trial
+                            </p>
+                            <button class="package__button">
+                                Buy Now
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -256,19 +308,21 @@
         </div>
     </section>
     <section class="video">
-        <div class="container">
             <img class="video__icon" src="../public/icons/playIcon.png" alt="">
-        </div>
     </section>
     <section class="reviews">
         <div class="container">
-            <div class="reviews__content">
-                <h2 class="section-title">
-                    What our customers are saying
-                </h2>
-                <p class="section-text">
-                    Everyone’s reasons for learning user interface design are different. If you’re already a developer, or a PM, or a UX designer, why develop this totally separate skill?
-                </p>
+            <div class="row text-center justify-content-center">
+                <div class="col-xl-8">
+                    <div class="reviews__content">
+                        <h2 class="section-title">
+                            What our customers are saying
+                        </h2>
+                        <p class="section-text">
+                            Everyone’s reasons for learning user interface design are different. If you’re already a developer, or a PM, or a UX designer, why develop this totally separate skill?
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="slider-container">
@@ -276,8 +330,9 @@
                 &#11104;
             </div>
                 <div class="container">
-                    <div class="reviews-container">
-                        <div class="reviewer">
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <div class="reviewer">
                             <p class="section-text">
                                 The JustLanded for WordPress theme is great, super easy to use and to customize and the support is just awesome: super fast and reliable.
                             </p>
@@ -294,26 +349,30 @@
                                     </div>
                                 </div>
                             </div>
+                            </div>
                         </div>
-                        <div class="reviewer">
-                            <p class="section-text">
-                                Very happy with the theme and incredibly easy to configure, well done! I cannot emphasize how awesome this theme and developer support are.
-                            </p>
-                            <div class="reviewer-account">
-                                <img src="../public/avatar/2reviewer.png" alt="">
-                                <div>
-                                    <div class="reviewer-contact">
-                                        <h4 class="reviewer-name">
-                                            Gary Sebastian
-                                        </h4>
-                                        <p class="section-text">
-                                            Apple Inc.
-                                        </p>
+                        <div class="col-xl-4">
+                            <div class="reviewer">
+                                <p class="section-text">
+                                    Very happy with the theme and incredibly easy to configure, well done! I cannot emphasize how awesome this theme and developer support are.
+                                </p>
+                                <div class="reviewer-account">
+                                    <img src="../public/avatar/2reviewer.png" alt="">
+                                    <div>
+                                        <div class="reviewer-contact">
+                                            <h4 class="reviewer-name">
+                                                Gary Sebastian
+                                            </h4>
+                                            <p class="section-text">
+                                                Apple Inc.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="reviewer">
+                        <div class="col-xl-4">
+                            <div class="reviewer">
                             <p class="section-text">
                                 Definitely a great theme and the support team are fantastic. Customer support is numero uno and ShapingRain have got this spot on. Cheers guys.
                             </p>
@@ -330,6 +389,7 @@
                                     </div>
                                 </div>
                             </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -340,31 +400,39 @@
     </section>
     <section class="download">
         <div class="container">
-            <div class="download__content">
-                <h2 class="section-title">
-                    Download Giant App Now
-                </h2>
+            <div class="row text-center justify-content-center">
+                <div class="download__content">
+                    <h2 class="section-title">
+                        Download Giant App Now
+                    </h2>
+                </div>
             </div>
-            <div class="download-container">
-                <div class="download-store">
-                    <img src="../public/appleIcon.png" alt="">
-                    <div class="download-store__description">
-                        <a  href="#" class="download__title">Download</a>
-                        <p>Download from app store</p>
+            <div class="row ">
+                <div class="col-xl-4">
+                    <div class="download-store">
+                        <img src="../public/appleIcon.png" alt="">
+                        <div class="download-store__description">
+                            <a  href="#" class="download__title">Download</a>
+                            <p class="section-text">Download from app store</p>
+                        </div>
                     </div>
                 </div>
-                <div class="download-store">
-                    <img src="../public/androidIcon.png" alt="">
-                    <div class="download-store__description">
-                        <a  href="#" class="download__title">Download</a>
-                        <p>Download from play store</p>
+                <div class="col-xl-4">
+                    <div class="download-store">
+                        <img src="../public/androidIcon.png" alt="">
+                        <div class="download-store__description">
+                            <a  href="#" class="download__title">Download</a>
+                            <p class="section-text">Download from play store</p>
+                        </div>
                     </div>
                 </div>
-                <div class="download-store">
-                    <img src="../public/windowsIcon.png" alt="">
-                    <div class="download-store__description">
-                        <a  href="#" class="download__title">Download</a>
-                        <p>Download from microsoft store</p>
+                <div class="col-xl-4">
+                    <div class="download-store">
+                        <img src="../public/windowsIcon.png" alt="">
+                        <div class="download-store__description">
+                            <a  href="#" class="download__title">Download</a>
+                            <p class="section-text">Download from microsoft store</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -372,13 +440,20 @@
     </section>
     <footer>
         <div class="container">
-            <div class="contacts">
-                <a href="№"><img src="../public/facebookIcon.png" alt=""></a>
-                <a href="№"><img src="../public/twitterIcon.png" alt=""></a>
-                <a href="№"><img src="../public/someIcon.png" alt=""></a>
-                <a href="№"><img src="../public/behanceIcon.png" alt=""></a>
+            <div class="row  text-center justify-content-center">
+                <div class="col-xl-6">
+                    <div class="footer__content">
+                        <div class="contacts">
+                            <a href="№"><img src="../public/facebookIcon.png" alt=""></a>
+                            <a href="№"><img src="../public/twitterIcon.png" alt=""></a>
+                            <a href="№"><img src="../public/someIcon.png" alt=""></a>
+                            <a href="№"><img src="../public/behanceIcon.png" alt=""></a>
+                        </div>
+                        <p class="copyright section-text">Copyright © 2017  |  UXSEVEN - a sister concern of codepixar.com</p>
+                    </div>
+                </div>
             </div>
-            <p class="copyright section-text">Copyright © 2017  |  UXSEVEN - a sister concern of codepixar.com</p>
+
         </div>
     </footer>
 </header>
