@@ -253,6 +253,28 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     justify-content: center;
 }
+
+.screenshots--img__center{
+    position: relative;
+    z-index: 5;
+}
+
+.screenshots--img__right1{
+    position: relative;
+    z-index: 4;
+}
+
+.screenshots--img__right2{
+    position: relative;
+    z-index: 3;
+}
+.screenshots--img__right3{
+    position: relative;
+    z-index: 2;
+}
+.screenshots img{
+    box-shadow: 0 0 30px rgba(122,122,122, 0.3);
+}
 /*slider-container*/
 .slider-container{
     height: 564px;
