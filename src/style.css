@@ -53,10 +53,16 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-around;
     cursor: default;
 }
+
 .arrow:hover{
     background: linear-gradient(to left, rgb(252, 115, 58), rgb(242, 34, 123));
     color: rgb(255, 255, 255);
     border: 3px solid rgb(238, 238, 238);
+}
+.slider-container .container{
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .checkbox{
     padding-right: 15px;
@@ -258,8 +264,11 @@ h1, h2, h3, h4, h5, h6 {
 .slider-container{
     height: 564px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+}
+#carousel{
+    height: 500px;
 }
 
 /*packages*/
